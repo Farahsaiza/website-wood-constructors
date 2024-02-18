@@ -1,0 +1,139 @@
+.container-fluid{
+    padding: 0px 0px;
+
+}
+header{
+    background-color: white;
+}
+ul{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: rgb(38, 207, 38);
+    color: white;
+    border-top-right-radius:10px ;
+    border-top-left-radius:10px ;
+    margin: 0px 10px;
+    height: 50px;
+
+    
+}
+
+li{
+    padding: 10px;
+    font-size: small;
+
+}
+select{
+    border: none;
+    background-color: rgb(38, 207, 38);
+    color: white;
+}
+option{
+    background-color: white;
+    color:rgb(38, 207, 38) ;
+}
+option:hover{
+    background-color: rgb(38, 207, 38);
+    
+
+}
+.tel{
+    margin-left: 800px;
+}
+
+.menu2{
+    background-color: white;
+    color: black;
+    margin: 0px;
+}
+.menu2>li{
+    text-transform: uppercase;
+    margin-left: 25px;
+
+
+}
+.logo{
+    margin-right: 600px;
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 0px;
+    
+}
+.container-fluid{
+    background-color: black;
+    height: 100vh;
+    position: relative;
+}
+.container-fluid::before{
+    margin-top: 90px;
+    content: "";
+    height: 86%;
+    width: 100%;
+    position: absolute;
+    background-image: url(Woodwork.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    display: block;
+    opacity: 0.4;
+
+}
+.imagtext{
+    position: relative;
+    
+
+}
+.imagtext>h1{
+    
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 70px;
+    letter-spacing: 0.05cm;
+}
+.imagtext>p{
+    color: white;
+    text-align: center;
+    width: 700px;
+    margin-left: 350px;
+}
+button{
+    margin-left: 580px;
+    font-size: medium;
+    font-weight: lighter;
+    color: white;
+    background-color: rgb(38, 207, 38);
+    border: none;
+    padding: 5px  20px;
+    width: 250px;
+
+}
+button:hover{
+    color:rgb(38, 207, 38) ;
+    border: rgb(38, 207, 38) 1px solid;
+    background-color: white;
+}
+.infos{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.infos>div{
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-top: 50px;
+    text-align: center;
+
+
+}
+h6{
+    font-size: 15px;
+    font-weight: lighter;
+    
+}
+h6:hover{
+    color:rgb(38, 207, 38) ;
+    cursor: pointer;
+
+}
